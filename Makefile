@@ -11,13 +11,10 @@ clean:
 database:
 	if [ -d data ];\
 	then\
-		rm data;\
+		rm -r data;\
 	fi;
 	mkdir data
-	cd data
-	curl http://download.geonames.org/export/dump/cities15000.zip -o cities15000.zip
-	curl http://download.geonames.org/export/dump/countryInfo.txt -o countryInfo.txt
-	unzip cities15000.zip
-	rm cities15000.zip
-	cd ..
-	
+	curl http://download.geonames.org/export/dump/cities15000.zip -o data/cities15000.zip
+	curl http://download.geonames.org/export/dump/countryInfo.txt -o data/countryInfo.txt
+	unzip data/cities15000.zip -d data
+	rm data/cities15000.zip

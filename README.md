@@ -53,12 +53,12 @@ Rang   Nom                         Pays                        Population
 
 ```
 ./tp1 test
-Erreur: Vous devez fournir un nombre entre 1 et 5000 comme argument.
+Erreur: Vous devez fournir un nombre valide en argument.
 
-Usage:
-	./tp1 <nombre de villes>
+Utilisation:
+  ./tp1 <nombre de villes>
 
-Où <nombre de ville> doit être un entier entre 1 et 5000.
+  Où <nombre de ville> doit être un entier entre 1 et 5000.
 ```
 
 ## Contenu du projet
@@ -70,6 +70,7 @@ Makefile - Fichier de configuration pour make. Ce fichier contient les instructi
 ## Références
 
 [Quicksort - Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Quicksort) - Le pseudocode à été utiliser pour écrire l'algorythme de tri rapide.
+[Travail pratique 1 - Homepage of Alexandre Blondin Massé](http://thales.math.uqam.ca/~blondin/fr/inf3135-tp1) - Utilisation des structures de données Ville et Pays.
 
 ## Status
 
